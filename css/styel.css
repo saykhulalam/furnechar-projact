@@ -1,0 +1,555 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Habibi', serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* =====================nav section start================ */
+#nav-bar{
+    margin-top: 20px;
+    margin-bottom: 72px;
+}
+#nav-bar ul li a{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 25;
+    color: #000000;
+    margin-right: 40px;
+}
+#nav-bar .icon i{
+font-size: 28px;
+margin-left: 20px;
+}
+#nav-bar img{
+    width: 228px;
+    height: 56px;
+}
+/* =====================nav section end================ */
+/* ============hero start================ */
+#hero{
+   margin-left: 15px;
+}
+#hero .text-areya h1{
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #292019;
+    margin-bottom: 43px;
+    width: 710px;
+}
+#hero .text-areya p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #000000;
+    margin-bottom: 43px;
+}
+#hero .btn-areya{
+    display: flex;
+    gap: 33px;
+}
+#hero .btn-areya a{
+    display: inline-block;
+    width: 241px;
+    height: 91px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #C4A586;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+#hero .btn-areya a:hover{
+    background-color: transparent;
+    color: #C4A586;
+    border: 1px solid #C4A586;
+}
+#hero .img-box{
+    width: 502px;
+    height: 753px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 68px;
+}
+#hero .img-box img{
+    width: 80%;
+}
+
+/* ============hero end================ */
+/* <!-- ================== thamnel section start============ --> */
+#thamnel .taitel{
+    margin-bottom: 91px;
+}
+#thamnel .taitel h1{
+     font-size: 23px;
+     font-weight: 700;
+     letter-spacing: 2%;
+     color: #000000;
+     text-align: center;
+}
+#thamnel .grup{
+    margin-bottom: 64px;
+}
+#thamnel .grup h1{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #72696A;
+}
+#thamnel .grup{
+    display: flex;
+    justify-content: space-between;
+}
+#thamnel .text-areya{
+    margin-top: 100px;
+}
+#thamnel .text-areya h1{
+    font-size: 30px;
+    letter-spacing: 25;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 41px;
+}
+#thamnel .text-areya h4{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #72696A;
+}
+#thamnel .text-a h1{
+    font-size: 30px;
+    letter-spacing: 25;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 41px;
+}
+#thamnel .text-a h4{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #72696A;
+    width: 309px;
+}
+#thamnel .box-tow{
+    width: 100%px;
+    height: 297px;
+    background-color: #C4A586;
+    display: flex;
+    gap: 20px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+#thamnel .box-tow:hover{
+    background-color: transparent;
+    border: 1px solid #C4A586;
+}
+#thamnel .text-a{
+    margin-top: 100px;
+}
+#thamnel .image img{
+    margin-top: 75px;
+    width: 227px;
+}
+#thamnel .text-a{
+    padding-left: 60px;
+}
+
+/* <!-- ================== thamnel section end============ --> */
+/* ===================Products section start============= */
+#Products .hadind h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#products .right-text h4{
+    font-size: 25px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    color: #000000;
+}
+#Products .right-text a{
+    font-size: 16px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    color: #C4A586;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    gap: 20px;
+    
+}
+#Products .right-text{
+    display: flex;
+    gap: 65px;
+    padding-top: 30px;
+}
+#Products .right-text a i{
+    font-size: 40px;
+    color: #C4A586;
+}
+#Products{
+    margin-top: 156px;
+}
+#Products .sofa-box .main{
+    width: 402px;
+    height: 302px;
+    background-color: rgba(196, 165, 134, 65%);
+    
+}
+#Products .had{
+    margin-bottom: 77px;
+    display: flex;
+}
+#Products .sofa-box{
+    position: relative;
+}
+#Products .sofa-box .main a{
+    width: 208px;
+    height: 68px;
+    background-color: #D1A070;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #000000;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    position: absolute;
+    top: -32px;
+}
+#Products .sofa-box .prize{
+    display: flex;
+    gap: 41px;
+    
+}
+#Products .sofa-box .prize h4{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+    
+}
+#Products .sofa-box .main h1{
+    font-size: 22px;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #000000;
+    padding-top: 36px;
+    padding-left: 84px;
+    padding-bottom: 8px;
+}
+#Products .sofa-box img{
+    position: absolute;
+    top: 159px;
+    left: 64px;
+}
+#Products .sofa-box{
+    margin-top: 32px;
+}
+#Products .sofa-box .main .blue img {
+        position: absolute;
+        top: 139px;
+        left: 510px;
+    }
+#Products .sofa-box .main .white img {
+        position: absolute;
+        top: 150px;
+        left: 963px;
+    }
+    #Products .sofa-box .main i{
+        font-size: 31px;
+        color: #72696A;
+        padding-top: 10px;
+    }
+
+#Products-tow .sofa-box{
+    width: 402px;
+    height: 302px;
+    background-color: rgba(196, 165, 134, 65%);
+}
+#Products-tow .sofa-box a{
+    width: 208px;
+    height: 68px;
+    background-color: #D1A070;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #000000;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    position: absolute;
+    top: -32px;
+}
+#Products-tow .main-x h1{
+    font-size: 22px;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #000000;
+    padding-top: 36px;
+    padding-left: 84px;
+    padding-bottom: 8px;
+}
+#Products-tow .prize-x h4{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#Products-tow .prize-x{
+    display: flex;
+    gap: 41px;
+    padding-left: 180px;
+}
+#Products-tow{
+    margin-top: 300px;
+}
+#Products-tow .sofa-box{
+    position: relative;
+}
+#Products-tow .sofa-box img {
+    position: absolute;
+    left: 57px;
+    top: 159px;
+}
+#Products-tow .sofa-box i{
+    font-size: 31px;
+    color: #72696A;
+}
+#Products-tow .sofa-box .white-tow img {
+    position: absolute;
+    top: 163px;
+    left: 93px;
+}
+#Products-tow .sofa-box .blue-tow img {
+    position: absolute;
+    top: 134px;
+    left: 81px;
+}
+/* ===================Products section end============= */
+/* <!-- =======================Customer section start===================== --> */
+#Customer{
+    margin-top: 325px;
+}
+#Customer .image img{
+    width: 477px;
+    height: 615px;
+}
+#Customer .text-areya h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 34px;
+}
+#Customer .text-areya p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 83px;
+}
+#Customer .last h1{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#Customer .last h4{
+    font-size: 17px;
+    line-height: 76px;
+    font-weight: 400;
+    color: #000000;
+}
+#Customer .last{
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+}
+#Customer .last-i{
+    display: flex;
+    gap: 18px;
+}
+#Customer .last-i i{
+    width: 33px;
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 23px;
+    transition: .4s;
+}
+#Customer .last-i i:hover{
+    background-color: #B99272;
+    color: #ffffff;
+}
+#Customer .text-areya{
+    margin-top: 71px;
+}
+#Customer .gallry{
+    display: flex;
+    gap: 36px;
+    margin-left: 209px;
+    margin-top: 54px;
+}
+#Customer .left .x{
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #C4A586;
+    border: 1px solid ;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-bottom: 25px;transition: .4s;
+}
+#Customer .left .x:hover{
+    background-color: #C4A586;
+    color: white;
+}
+#Customer .left h1{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+#Customer .but .main{
+    width: 492px;
+    height: 78px;
+    background-color: rgba(217, 217, 217,51%);
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    border: none;
+    padding-right: 234px;
+    
+}
+#Customer .but{
+    position: relative;
+}
+#Customer .but .tow{
+    width: 178px;
+    height: 68px;
+    background-color: #C4A586;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    left: 235px;
+    top: 6px;
+}
+#Customer .but i{
+    width: 86px;
+    height: 68px;
+    background-color: rgba(196, 165, 134,44%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    left: 403px;
+}
+#Customer .but{
+    display: flex;
+}
+#Customer .right{
+    padding-top: 200px;
+}
+#Customer .right a i{
+    font-size: 23px;
+    padding-left: 20px;
+}
+#Customer .right a{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #000000;
+    text-decoration: none;
+}
+#Customer .lst-v{
+    margin-top: 95px;
+}
+#Customer .mani{
+    display: flex;
+    justify-content: space-between;
+}
+#Customer .left{
+    padding-top: 50px;
+}
+/* <!-- =======================Customer section end===================== --> */
+/* <!-- ===================footer section start====================== --> */
+#footer{
+    margin-top: 114px;
+}
+#footer ul li a{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 25;
+    color: #000000;
+    margin-right: 47px;
+}
+#footer .icon i{
+font-size: 28px;
+margin-left: 20px;
+color: #B99272;
+}
+#footer img{
+    width: 228px;
+    height: 50px;
+}
+#footer .last-footer{
+    height: 124px;
+    width: 100%;
+    border-top: 1px solid rgba(114, 105, 106,39%);
+    display: flex;justify-content: center;
+    align-items: center;
+}
+#footer .last-footer h4{
+    font-size: 17px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+/* <!-- ===================footer section end====================== --> */
+
+
+
+
+
+
+
+
+
+

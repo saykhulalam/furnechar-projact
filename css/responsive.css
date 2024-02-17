@@ -1,0 +1,65 @@
+@media (min-width:320px) and (max-width:576px){
+    /* =====nav start===== */
+    #nav-bar img {
+        width: 171px;
+        height: 43px;
+        margin-left: -9px;
+    }
+    /* =====nav end===== */
+    /* =======hero start====== */
+    #hero .text-areya h1 {
+        margin-top: -17px;
+        font-size: 25px;
+        line-height: 41px;
+        margin-bottom: 31px;
+        width: 301px;
+    }
+    #hero .text-areya p {
+        font-size: 16px;
+    }
+    #hero .btn-areya {
+        display: flex;
+        gap: 13px;
+        margin-left: -27px;
+    }
+    #hero .btn-areya a {
+        font-size: 17px;
+    }
+    /* =======hero end====== */
+     /* ====thamnel start===== */
+     #hero .img-box img {
+        width: 62%;
+        margin-left: -402px;
+        margin-top: -108px;
+    }
+    #thamnel .taitel h1 {
+        margin-top: -111px;
+        font-size: 19px;
+    }
+    #thamnel .grup h1 {
+        font-size: 14px;
+    }
+    #thamnel .grup {
+        display: flex;
+        gap: 13px;
+    }
+    #thamnel .text-a {
+        padding-left: 27px;
+    }
+    #thamnel .text-a h1 {
+        font-size: 27px;
+    }
+    #thamnel .text-a h4 {
+        font-size: 21px;
+    }
+    #thamnel .box-tow {
+        margin-left: -5px;
+        width: 283px;
+        height: 279px;
+    }
+     /* ====thamnel end===== */
+
+
+
+
+}
